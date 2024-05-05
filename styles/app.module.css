@@ -1,0 +1,49 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-image: url("https://i.gifer.com/76YS.gif");
+  color: white;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+.appbutton {
+  color: white;
+  background-color: black;
+  border: 1px solid #ccc; /* Button border */
+  border-radius: 5px; /* Set the corner curvature */
+  padding: 10px 20px; /* Button padding */
+  cursor: pointer; /* Indicate interactivity */
+  transition: transform 0.2s ease-in-out; /* Smooth transition on hover */
+}
+.appbutton:hover {
+  transform: scale(1.1); /* Maintain grow effect from previous step */
+}
+
+.status {
+  margin-bottom: 10px;
+}
+/* app.module.css */
+.game {
+  /* Styles for the entire game container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Make it take up 100% viewport height */
+  width: 100%; /* Make it take up 100% viewport width */
+}
+
+.gameboard,
+.gameinfo {
+  /* border: 1px solid #2e2c2c; */
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

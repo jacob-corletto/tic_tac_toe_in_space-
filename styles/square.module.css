@@ -1,0 +1,19 @@
+/* square.module.css */
+.square {
+  background-color: #fff;
+  border: 1px solid #0091ff; /* Neon red border for squares */
+  width: 5rem;
+  height: 5rem;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out; /* Add transition for smooth hover effect */
+  border-radius: 5px; /* Set the corner curvature */
+  padding: 10px 20px; /* Button padding */
+}
+.square:hover {
+  background-color: #eee; /* Gray background on hover */
+}
+.square:active {
+  transform: scale(1.1);
+}

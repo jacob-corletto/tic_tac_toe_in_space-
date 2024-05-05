@@ -1,0 +1,30 @@
+/* .boardrow:after {
+  clear: both;
+  content: "";
+  display: table;
+  display: flex;
+} */
+
+/* Board.module.css */
+.status {
+  /* Styles for the status message */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.board {
+  /* New class for the entire board container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Make it take up 100% width of the container */
+  min-height: 300px; /* Set a minimum height for the board */
+}
+
+.boardrow {
+  /* Styles for each row of squares */
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 0.5rem; */
+}
