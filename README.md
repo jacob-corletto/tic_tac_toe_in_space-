@@ -18,3 +18,9 @@ $ npm run dev
 ```
 
 This will run the code. Follow the link in the terminal to the website. Please let me know via email if anything is not working.
+
+## Sources
+
+https://www.geeksforgeeks.org/how-to-build-a-tic-tac-toe-game-using-react-hooks/
+https://react.dev/learn/tutorial-tic-tac-toe
+https://react.dev/learn
